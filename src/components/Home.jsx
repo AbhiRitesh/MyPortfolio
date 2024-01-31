@@ -14,7 +14,7 @@ const Home = () => {
                     block md:inline-block"> Abhishek Kumar</span>
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        A dedicated <span className='font-bold text-xl'>frontend developer</span> with a passion for creating seamless and visually appealing user interfaces. I love to work on web application using technologies like ReactJS, Tailwind, JavaScript, CSS and HTML.
+                        A dedicated <span className='font-bold text-xl'>Backend developer</span> with a passion for creating seamless and visually appealing user interfaces. I love to work on web application using technologies like ReactJS, Tailwind, JavaScript, CSS and HTML.
                     </p>
                     <div className='flex'>
                         <Link to='portfolio' smooth duration={500} className='font-bold group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
