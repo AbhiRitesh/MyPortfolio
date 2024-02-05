@@ -11,7 +11,7 @@ const About = () => {
                 <div className='flex flex-wrap'>
                     <div className='w-full md:w-3/4'>
                         <p className='text-xl mt-12'>
-                            Hi, I'm Abhishek Kumar, a passionate frontend developer based in Gorakhpur, Uttar Pradesh. With a strong foundation in web technologies, I specialize in creating intuitive and dynamic user interfaces using modern frontend frameworks such as ReactJS.
+                            Hi, I'm Abhishek Kumar, a passionate frontend developer based in Ranchi, Jharkhand. With a strong foundation in web technologies, I specialize in creating intuitive and dynamic user interfaces using modern frontend frameworks such as ReactJS.
                         </p>
                         <br />
                         <p className='text-xl'>
