@@ -4,6 +4,7 @@ import game from '../assets/portfolio/game.png';
 import job from '../assets/portfolio/job.png';
 import mba from '../assets/portfolio/mba.png';
 import todo from '../assets/portfolio/todo.png';
+import blog from '../assets/portfolio/blog.png'
 
 const Portfolio = () => {
 
@@ -46,6 +47,12 @@ const Portfolio = () => {
             demo: 'https://theme-switcher-rxz6-5cgfkzcd7-abhiritesh.vercel.app/',
             code: 'https://github.com/AbhiRitesh/TodoReact'
         },
+        {
+            id: 6,
+            src: blog,
+            demo: "https://mega-blog-drab.vercel.app/",
+            code: "https://github.com/AbhiRitesh/MegaBlog"
+        }
     ];
 
     return (
