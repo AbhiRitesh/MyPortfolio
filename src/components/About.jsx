@@ -11,13 +11,13 @@ const About = () => {
                 <div className='flex flex-wrap'>
                     <div className='w-full md:w-3/4'>
                         <p className='text-xl mt-12'>
-                            Hi, I'm Abhishek Kumar, a passionate frontend developer based in Ranchi, Jharkhand. With a strong foundation in web technologies, I specialize in creating intuitive and dynamic user interfaces using modern frontend frameworks such as ReactJS.
+                            Hi, I’m Abhishek Kumar, a dedicated Full Stack Developer based in Ranchi, Jharkhand. With a strong foundation in web technologies, I specialize in building end-to-end solutions using modern frameworks like ReactJS for the frontend and Node.js for the backend.
                         </p>
                         <br />
                         <p className='text-xl'>
-                            As a frontend enthusiast, I enjoy bringing designs to life with clean and efficient code. My expertise includes working with technologies like ReactJS, Tailwind CSS, JavaScript, HTML, and CSS. I am committed to staying updated with the latest trends and continuously expanding my skill set to deliver high-quality and user-friendly web applications.
+                            As a Full Stack Developer, I thrive on crafting complete, high-performance web applications from the ground up. My expertise spans both front-end and back-end technologies, including ReactJS, Tailwind CSS, JavaScript, HTML, and CSS for seamless user interfaces, and Node.js for robust server-side solutions. I am dedicated to staying current with industry trends and continuously enhancing my skills to deliver innovative and efficient web solutions.
                         </p>
-                        
+
                     </div>
                     <div className='w-full md:w-1/4 flex justify-center items-center'>
                         <img src={meImage} alt='Abhishek Kumar' className='rounded-full h-64 w-64 object-cover' />
