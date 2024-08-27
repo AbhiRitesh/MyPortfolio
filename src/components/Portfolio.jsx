@@ -1,10 +1,10 @@
 import React from 'react';
-import card from '../assets/portfolio/card.png';
 import game from '../assets/portfolio/game.png';
 import job from '../assets/portfolio/job.png';
 import mba from '../assets/portfolio/mba.png';
-import todo from '../assets/portfolio/todo.png';
-import blog from '../assets/portfolio/blog.png'
+import blog from '../assets/portfolio/blog.png';
+import prompt from '../assets/portfolio/prompt.png';
+import estate from '../assets/portfolio/estate.png'
 
 const Portfolio = () => {
 
@@ -19,15 +19,15 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: card,
-            demo: 'https://theme-switcher-rho-three.vercel.app/',
-            code: 'https://github.com/AbhiRitesh/ThemeSwitcher'
+            src: prompt,
+            demo: 'https://promptriot-gr8k4cxo7-abhiriteshs-projects.vercel.app/',
+            code: 'https://github.com/AbhiRitesh/Promptriot'
         },
         {
             id: 2,
-            src: game,
-            demo: 'https://abhiritesh.github.io/2048-Game/',
-            code: 'https://github.com/AbhiRitesh/2048-Game'
+            src: estate,
+            demo: "",
+            code: "https://github.com/AbhiRitesh/RealEstateApp"
         },
         {
             id: 3,
@@ -43,16 +43,16 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: todo,
-            demo: 'https://theme-switcher-rxz6-5cgfkzcd7-abhiritesh.vercel.app/',
-            code: 'https://github.com/AbhiRitesh/TodoReact'
-        },
-        {
-            id: 6,
             src: blog,
             demo: "https://mega-blog-drab.vercel.app/",
             code: "https://github.com/AbhiRitesh/MegaBlog"
-        }
+        },
+        {
+            id: 6,
+            src: game,
+            demo: 'https://abhiritesh.github.io/2048-Game/',
+            code: 'https://github.com/AbhiRitesh/2048-Game'
+        },
     ];
 
     return (
@@ -63,7 +63,7 @@ const Portfolio = () => {
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='py-6 text-xl mt-12'>Checkout out some of my projects right here which are built using technology stacks like HTML, CSS, JavaScript, Tailwind CSS, ReactJS, NodeJS, ExpressJS, MongoDB and many more.</p>
+                    <p className='py-6 text-xl mt-12'>Checkout out some of my projects right here which are built using technology stacks like HTML, CSS, JavaScript, Tailwind CSS, ReactJS, NextJS, NodeJS, ExpressJS, MongoDB and many more.</p>
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
